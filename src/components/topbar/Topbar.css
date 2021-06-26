@@ -1,0 +1,32 @@
+.topbar {
+  background-color: white;
+  color: #15023a;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+.topbar .wrapper {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topbar .wrapper .left {
+  display: flex;
+  align-items: center;
+}
+.topbar .wrapper .left .logo {
+  font-size: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 40px;
+}
+.topbar .wrapper .left .itemContainer {
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=Topbar.css.map */
