@@ -27,6 +27,45 @@
 .topbar .wrapper .left .itemContainer {
   display: flex;
   align-items: center;
+  margin-left: 40px;
+}
+.topbar .wrapper .left .itemContainer .icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+.topbar .wrapper .left .itemContainer span {
+  font-size: 15px;
+  font-weight: 500;
+}
+.topbar .wrapper .right .humburger {
+  width: 32px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.topbar .wrapper .right .humburger span {
+  width: 100%;
+  height: 3px;
+  background-color: #15023a;
+  transform-origin: left;
+  transition: all 2s ease;
+}
+.topbar.active {
+  background-color: #15023a;
+  color: white;
+}
+.topbar.active .humburger span:first-child {
+  background-color: white;
+  transform: rotate(45deg);
+}
+.topbar.active .humburger span:nth-child(2) {
+  opacity: 0;
+}
+.topbar.active .humburger span:last-child {
+  background-color: white;
+  transform: rotate(-45deg);
 }
 
 /*# sourceMappingURL=Topbar.css.map */

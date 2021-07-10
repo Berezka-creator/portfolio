@@ -1,0 +1,13 @@
+.menuItem {
+        margin-bottom: 20px;
+
+        a {
+            font-size: 2rem;
+            color: white;
+            text-decoration: none;
+        }
+
+        &:hover {
+            font-weight: 500;
+        }
+    }

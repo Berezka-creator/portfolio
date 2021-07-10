@@ -1,0 +1,13 @@
+.menuItem {
+  margin-bottom: 20px;
+}
+.menuItem a {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+.menuItem:hover {
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=MenuItem.css.map */
