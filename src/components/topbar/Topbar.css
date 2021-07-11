@@ -29,6 +29,11 @@
   align-items: center;
   margin-left: 40px;
 }
+@media (max-width: 768px) {
+  .topbar .wrapper .left .itemContainer {
+    display: none;
+  }
+}
 .topbar .wrapper .left .itemContainer .icon {
   font-size: 18px;
   margin-right: 8px;
