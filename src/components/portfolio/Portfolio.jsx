@@ -16,20 +16,20 @@ export default function Portfolio() {
     const [data, setData] = useState([]);
     const list = [
         {
-            id: 'featured',
-            title: "Featured",
+            id: 'html',
+            title: "HTML/CSS",
         },
         {
-            id: 'web',
-            title: "Web App",
+            id: 'libraries',
+            title: "JS Libraries",
+        },
+        {
+            id: 'js',
+            title: "Java Script",
         },
         {
             id: 'mobile',
-            title: "Mobile App",
-        },
-        {
-            id: 'design',
-            title: "Design",
+            title: "Mobile",
         }
     ];
 
@@ -61,7 +61,7 @@ export default function Portfolio() {
 
             
             <h1>Portfolio</h1>
-            <ul>
+            {/* <ul>
                 {list.map(item => ( 
 
                     <PortfolioList  
@@ -71,16 +71,34 @@ export default function Portfolio() {
                         id = {item.id}/>
                 ))}
                           
-            </ul>
+            </ul> */}
 
             <div className="container">
-                {data.map((d) => (
+                
                     <div className="item">
-                    <img src={d.img} 
+                    <img src="assets/burger-app.png"
                         alt="" />
-                    <h3>{d.title}</h3>
+                    <h3>ReactJS Burger Builder</h3>
                     </div>
-                ))}
+
+                    <div className="item">
+                    <img src="assets/host-app.png" 
+                        alt="" />
+                    <h3>Hosting App</h3>
+                    </div>
+
+                    <div className="item">
+                    <img src="assets/youtubeQuiz.png"
+                        alt= ""/>
+                    <h3>Youtube Quiz</h3>
+                    </div>
+
+                    <div className="item">
+                    <img src="assets/sfliving.png"
+                        alt="" />
+                    <h3>WordPress</h3>
+                    </div>
+               
                      
             </div>
 

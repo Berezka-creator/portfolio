@@ -10,7 +10,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     <a href="#intro" className="logo">berezka.</a>
                     <div className="itemContainer">
                         <Person className="icon"/>
-                        <span>+1 415 813 0678</span>active
+                        <span>+1 415 813 0678</span>
                     </div>
                     <div className="itemContainer">
                         <Mail className="icon"/>
