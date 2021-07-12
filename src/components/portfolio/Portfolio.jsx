@@ -77,7 +77,7 @@ export default function Portfolio() {
                 
                     <div className="item">
                     <img src="assets/burger-app.png"
-                        alt="" />
+                        alt="" href="https://berezka-creator.github.io/burger-app/"/>
                     <h3>ReactJS Burger Builder</h3>
                     </div>
 
