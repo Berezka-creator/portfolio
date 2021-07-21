@@ -12,6 +12,7 @@ const input = (props) => {
                 className="InputElement" 
                 {...props.elementConfig} 
                 value = {props.value} 
+           
                 onChange={props.changed}/>;
             break;
         
@@ -19,6 +20,7 @@ const input = (props) => {
             inputElement = <textarea 
                 className="InputElement" 
                 {...props.elementConfig} 
+             
                 value = {props.value} 
                 onChange={props.changed}/>;
             break;

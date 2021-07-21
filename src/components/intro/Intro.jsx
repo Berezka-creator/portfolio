@@ -2,6 +2,10 @@ import React from 'react'
 import "./Intro.css"
 import { init } from 'ityped'
 import { useEffect, useRef} from 'react'
+import  { Link } from 'react-router-dom'
+import Resume from '../resume/Resume'
+
+
 
 
 
@@ -25,26 +29,47 @@ export default function Intro() {
 
     },[])
 
-
-
-
     return (
         <div className="intro" id="intro">
-            <div className="left">
-                <div className="imgContainer">
-                    <img src="assets/man.png" alt=""/>
-                </div>
+            <div className="imgContainer">
             </div>
-            <div className="right">
-                <div className="wrapper">
+          
+            <div className="wrapper">
                     <h2>Hi There, I'm</h2>
                     <h1>Julia Berezina</h1>
                     <h3>Freelance <span ref={textRef}></span></h3>
+            </div>
+
+                <div className="social">
+                    <a href="#">
+                        <img className="icone" src="assets/link.png" alt="" />
+                    </a>
+                   
+                    <a href="#">
+                        <img className="icone" src="assets/github.png"  alt=""/>
+                    </a>
+
+                    <a href="#">
+                        <img className="icone" src="assets/fb.png" alt="" />
+                    </a>
+                    <a href="#">
+                        <img className="icone inst" src="assets/inst.png"  alt=""/> 
+                    </a>   
                 </div>
-                <a href="#portfolio">
+
+               <div className="buttons">
+                   <Link to="#portfolio">Portfolio</Link>
+                  
+                   <Link to={{
+                       pathname: '/resume'
+                     
+                   }}>Resume</Link>
+               </div>
+
+                <a href="#portfolio" id="arrow">
                     <img src="assets/down.png" alt="" />
                 </a>
-            </div>
+      
         </div>
     )
 }

@@ -7,8 +7,6 @@ export default function menuItems() {
             <ul className="menuItems">
                 <MenuItem link="#intro">Intro</MenuItem>
                 <MenuItem link="#portfolio">Portfolio</MenuItem>
-                <MenuItem link="#works">Works</MenuItem>
-                <MenuItem link="#testimonials">Testimonials</MenuItem>
                 <MenuItem link="#contact">Contact</MenuItem>
             </ul>
      

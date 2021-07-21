@@ -1,0 +1,122 @@
+.resume {
+  width: 100%;
+  padding-top: 4.3rem;
+  margin: auto;
+}
+@media (min-width: 40rem) {
+  .resume {
+    display: grid;
+    width: 70%;
+    margin: auto;
+    grid-template-columns: 80% 20%;
+    grid-column-gap: 0.2rem;
+    grid-template-areas: "name name" "summary skills" "webexp skills" "exp lang" "edu hobby";
+  }
+}
+.resume h3 {
+  font-size: 1.2rem;
+  color: #1f2929;
+}
+.resume h4 {
+  color: #435757;
+  font-size: 0.9rem;
+}
+.resume h5 {
+  color: #435757;
+  font-size: 0.7em;
+}
+.resume .separator {
+  background-color: #d1eeee;
+  width: 100%;
+  height: 0.2rem;
+  margin: 0.7rem 0;
+}
+.resume .title-container {
+  grid-area: name;
+}
+.resume .contact-container {
+  grid-area: contact;
+}
+.resume .summary-container {
+  grid-area: summary;
+}
+.resume .skills-container {
+  grid-area: skills;
+}
+.resume .webexp-container {
+  grid-area: webexp;
+}
+.resume .exp-container {
+  grid-area: exp;
+}
+.resume .title-container {
+  width: 100%;
+}
+@media (min-width: 40rem) {
+  .resume .title-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.resume .resume-title {
+  padding: 1rem;
+}
+.resume .resume-title h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.3rem;
+}
+.resume .resume-title h2 {
+  color: #435757;
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+}
+.resume .contact {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 40rem) {
+  .resume .contact {
+    width: 50%;
+  }
+}
+.resume .contact .contact-item {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+.resume .contact .contact-item .i {
+  color: #435757;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin: 0.2rem;
+}
+.resume .contact .contact-item p {
+  font-family: "Playfair Display", serif;
+  color: #435757;
+  font-weight: 500;
+  font-size: 100%;
+  padding-left: 0.5rem;
+}
+@media (min-width: 40rem) {
+  .resume .contact .contact-item p {
+    font-size: 80%;
+  }
+}
+.resume .skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.resume .skills div {
+  margin: 1rem;
+}
+.resume .experience .experience__item {
+  padding: 1rem 0;
+}
+.resume .experience .experience__item ul li {
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/*# sourceMappingURL=Resume.css.map */

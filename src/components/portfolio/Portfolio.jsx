@@ -1,5 +1,4 @@
 import "./Portfolio.css"
-import PortfolioList from './portfolioList/PortfolioList'
 import { useEffect, useState } from 'react'
 import  {
     featuredPortfolio,
@@ -12,48 +11,48 @@ import  {
 
 export default function Portfolio() {
 
-    const [selected, setSelected] = useState('featured');
-    const [data, setData] = useState([]);
-    const list = [
-        {
-            id: 'html',
-            title: "HTML/CSS",
-        },
-        {
-            id: 'libraries',
-            title: "JS Libraries",
-        },
-        {
-            id: 'js',
-            title: "Java Script",
-        },
-        {
-            id: 'mobile',
-            title: "Mobile",
-        }
-    ];
+    // const [selected, setSelected] = useState('featured');
+    // const [data, setData] = useState([]);
+    // const list = [
+    //     {
+    //         id: 'html',
+    //         title: "HTML/CSS",
+    //     },
+    //     {
+    //         id: 'libraries',
+    //         title: "JS Libraries",
+    //     },
+    //     {
+    //         id: 'js',
+    //         title: "Java Script",
+    //     },
+    //     {
+    //         id: 'mobile',
+    //         title: "Mobile",
+    //     }
+    // ];
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        switch(selected){
-            case "featured":
-                setData(featuredPortfolio);
-                break;
-            case "web":
-                setData(webPortfolio);
-                break;
-            case "mobile":
-                setData(mobilePortfolio);
-                break;
-            case "design":
-                setData(designPortfolio);
-                break;
-            default:
-                setData(featuredPortfolio);    
+    //     switch(selected){
+    //         case "featured":
+    //             setData(featuredPortfolio);
+    //             break;
+    //         case "web":
+    //             setData(webPortfolio);
+    //             break;
+    //         case "mobile":
+    //             setData(mobilePortfolio);
+    //             break;
+    //         case "design":
+    //             setData(designPortfolio);
+    //             break;
+    //         default:
+    //             setData(featuredPortfolio);    
 
-        }
+    //     }
 
-    }, [selected])
+    // }, [selected])
 
 
     return (

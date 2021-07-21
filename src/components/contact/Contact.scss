@@ -1,6 +1,9 @@
 @import "../../global.scss";
 
+*{
+    box-sizing: border-box;
 
+}
 .contact {
     background-color: white;
     display: flex;
@@ -31,6 +34,7 @@
         }
 
         form {
+      
             width: 50%;
             display: flex;
             flex-direction: column;
@@ -38,9 +42,24 @@
             justify-content: center;
             
             @include mobile {
-                width:70%;
+                width: 90%;
             }
 
+            label {
+                width: 100%;
+            }
+
+            input {
+                width: 100%;
+                margin: 10px 0;
+              
+            }
+
+            textarea {
+                width: 100%;
+                height: 100px;
+                margin-bottom: 10px;       
+            }
            
             button {
                 width: 150px;
@@ -58,11 +77,25 @@
                     outline:none;
                 }
             }
+        }
 
-            span {
-                color: green;
+        span {
+            color: green;
+            font-size: 1rem;
+            font-weight: 500;
+            margin:20px;
+            animation: message 3s ease;
+        
+
+            @keyframes message {
+
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
             }
-
 
         }
     }
