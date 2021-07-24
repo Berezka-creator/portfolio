@@ -2,7 +2,7 @@ import React from 'react'
 import "./Intro.css"
 import { init } from 'ityped'
 import { useEffect, useRef} from 'react'
-import  { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 import Resume from '../resume/Resume'
 
 
@@ -58,7 +58,7 @@ export default function Intro() {
                 </div>
 
                <div className="buttons">
-                   <Link to="#portfolio">Portfolio</Link>
+                   <Link to='/#portfolio'>Portfolio</Link>
                   
                    <Link to={{
                        pathname: '/resume'
