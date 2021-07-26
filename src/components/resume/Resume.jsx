@@ -1,7 +1,7 @@
 import React from 'react'
 import './Resume.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMobile, faAt, faMarker, faLink, faUser, faWrench, faFileCode, faGraduationCap, faBriefcase } from '@fortawesome/free-solid-svg-icons'
+import { faMobile, faAt, faMarker, faLink, faUser, faWrench, faFileCode, faGraduationCap, faBriefcase, faLanguage, faRunning } from '@fortawesome/free-solid-svg-icons'
 import ResumeSection from "./resumeSection/ResumeSection"
 
 
@@ -148,7 +148,7 @@ export default function Resume() {
 
             <ResumeSection 
                 class="lang-container"
-                icon={faMobile} 
+                icon={faLanguage} 
                 title="Languages">
                     <div className="language">
                         <div>Russian</div>
@@ -160,7 +160,7 @@ export default function Resume() {
 
             <ResumeSection 
                 class="hobby-container"
-                icon={faAt} 
+                icon={faRunning} 
                 title="Hobby">
                     <div className="hobby">
                         <div>Capoeira</div>

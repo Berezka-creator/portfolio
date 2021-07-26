@@ -12,11 +12,14 @@ import Resume from '../resume/Resume'
 
 export default function Layout() {
 
+   
+
     const [menuOpen, setMenuOpen] = useState(false)
     return (
         <div className="layout">
             <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-            <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+            <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}
+         />
             {/* <Sections /> */}
             <Switch>
                 <Route path="/resume" exact component ={Resume} />
