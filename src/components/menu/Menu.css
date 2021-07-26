@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: center;
   transition: all 1s ease;
+  z-index: 101;
 }
 .menu.active {
   right: 0;

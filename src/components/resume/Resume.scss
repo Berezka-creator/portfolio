@@ -10,9 +10,9 @@
     
     @media (min-width: 40rem) {
         display: grid;
-        width: 70%;
+        width: 80%;
         margin: auto;
-        grid-template-columns: 80% 20%;
+        grid-template-columns: 75% 25%;
         grid-column-gap: 0.2rem;
         grid-template-areas:  "name name"
                               "summary skills"
@@ -71,7 +71,7 @@
         width: 100%;
         
 
-        @media (min-width: 40rem){
+        @include desktop{
             display: flex;
             justify-content: space-between;
             
@@ -91,7 +91,7 @@
         }
     }
 
-    .contact{
+    .resume-contact{
       
         display: flex;
         flex-direction: column; 
@@ -138,20 +138,10 @@
     }
     
   
-    .skills{
-      
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        
-        div {
-            margin: 1rem;
-        }
-    }
+  
 
     .experience {
     
-
         .experience__item{
             padding: 1rem 0;
 
@@ -164,22 +154,27 @@
     
                 }
             }
-
         }
-
-       
-
-
     }
 
-    .language{
+    .language, .hobby, .skills{
+       
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        @include desktop {
+            flex-direction: column;
+        }
+        
+        div {
+            margin: 1rem;
+        }
+       
+        
      
     }
 
-    .hobby{
-    
-    }
-    
-
+  
 
 }

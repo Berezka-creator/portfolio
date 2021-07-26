@@ -14,7 +14,7 @@ export default function Resume() {
                     <h2>Front End Developer</h2>
                 </div>
 
-                <div className="contact contact-container">
+                <div className="resume-contact contact-container">
                 <div className="contact-item">
                     <FontAwesomeIcon icon={faMobile} className="i" />
                     <p>+1 (415)632-0302</p>
@@ -150,14 +150,24 @@ export default function Resume() {
                 class="lang-container"
                 icon={faMobile} 
                 title="Languages">
-                Russian English Arabic
+                    <div className="language">
+                        <div>Russian</div>
+                        <div>English</div>
+                        <div>Arabic</div>   
+                    </div>
+               
             </ResumeSection>
 
             <ResumeSection 
                 class="hobby-container"
                 icon={faAt} 
                 title="Hobby">
-                Human Biology, Being Active
+                    <div className="hobby">
+                        <div>Capoeira</div>
+                        <div>Human Biology</div>
+                        <div>Earth Science</div>   
+                    </div>
+               
             </ResumeSection>
         </div>
 

@@ -5,7 +5,7 @@
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 102;
 }
 .topbar .wrapper {
   padding: 10px 30px;
@@ -49,6 +49,7 @@
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
+  z-index: 102;
 }
 .topbar .wrapper .right .humburger span {
   width: 100%;
@@ -60,6 +61,7 @@
 .topbar.active {
   background-color: #15023a;
   color: white;
+  z-index: 103;
 }
 .topbar.active .humburger span:first-child {
   background-color: white;

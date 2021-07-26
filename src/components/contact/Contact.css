@@ -3,12 +3,19 @@
 }
 
 .contact {
-  background-color: white;
+  padding-top: 80px;
+  height: 100vh;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  overflow: hidden;
+  position: relative;
 }
-@media (max-width: 40rem) {
+@media (min-width: 40rem) {
   .contact {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 .contact .left {
@@ -20,6 +27,8 @@
 }
 .contact .right {
   flex: 1;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,15 +38,18 @@
   font-size: 30px;
 }
 .contact .right form {
-  width: 50%;
+  width: 80%;
+  height: 60%;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
+  align-self: center;
 }
-@media (max-width: 40rem) {
+@media (min-width: 40rem) {
   .contact .right form {
-    width: 90%;
+    width: 50%;
+    height: 50%;
   }
 }
 .contact .right form label {
@@ -45,12 +57,10 @@
 }
 .contact .right form input {
   width: 100%;
-  margin: 10px 0;
 }
 .contact .right form textarea {
   width: 100%;
-  height: 100px;
-  margin-bottom: 10px;
+  height: 5rem;
 }
 .contact .right form button {
   width: 150px;

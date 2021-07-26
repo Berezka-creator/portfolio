@@ -6,9 +6,9 @@
 @media (min-width: 40rem) {
   .resume {
     display: grid;
-    width: 70%;
+    width: 80%;
     margin: auto;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 75% 25%;
     grid-column-gap: 0.2rem;
     grid-template-areas: "name name" "summary skills" "webexp skills" "exp lang" "edu hobby";
   }
@@ -70,27 +70,27 @@
   font-size: 1.4rem;
   font-family: "Roboto", sans-serif;
 }
-.resume .contact {
+.resume .resume-contact {
   display: flex;
   flex-direction: column;
 }
 @media (min-width: 40rem) {
-  .resume .contact {
+  .resume .resume-contact {
     width: 50%;
   }
 }
-.resume .contact .contact-item {
+.resume .resume-contact .contact-item {
   height: 3rem;
   display: flex;
   align-items: center;
 }
-.resume .contact .contact-item .i {
+.resume .resume-contact .contact-item .i {
   color: #435757;
   width: 0.8rem;
   height: 0.8rem;
   margin: 0.2rem;
 }
-.resume .contact .contact-item p {
+.resume .resume-contact .contact-item p {
   font-family: "Playfair Display", serif;
   color: #435757;
   font-weight: 500;
@@ -98,17 +98,9 @@
   padding-left: 0.5rem;
 }
 @media (min-width: 40rem) {
-  .resume .contact .contact-item p {
+  .resume .resume-contact .contact-item p {
     font-size: 80%;
   }
-}
-.resume .skills {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.resume .skills div {
-  margin: 1rem;
 }
 .resume .experience .experience__item {
   padding: 1rem 0;
@@ -117,6 +109,19 @@
   text-align: justify;
   font-size: 1rem;
   line-height: 1.5rem;
+}
+.resume .language, .resume .hobby, .resume .skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media (min-width: 40rem) {
+  .resume .language, .resume .hobby, .resume .skills {
+    flex-direction: column;
+  }
+}
+.resume .language div, .resume .hobby div, .resume .skills div {
+  margin: 1rem;
 }
 
 /*# sourceMappingURL=Resume.css.map */

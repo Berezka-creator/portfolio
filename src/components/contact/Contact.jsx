@@ -6,8 +6,6 @@ import "./Contact.css";
 export default function Contact() {
 
     const [message, setMessage] = useState(false);
-
-   
     const [form, showForm] = useState(true);
 
 
@@ -30,33 +28,30 @@ export default function Contact() {
 
       
 
-        return (
-            <div className="contact" id="contact">
-                <div className="left">
-                    <img src="assets/shake.svg" alt="" />
-                </div>
-                <div className="right">
-                    <h2>Contact</h2>
-                    
+    return (
+        <div className="contact" id="contact">
+            <div className="left">
+                <img src="assets/shake.svg" alt="" />
+            </div>
+            <div className="right">
+                <h2>Contact</h2>    
                     {showForm ? form &&
                         <form id="myForm" onSubmit={sendEmail}>
 
                             <label>
-                            <input type="email" id="email" placeholder="Your email..." name="email" required/>
+                            <input name="email" type="email" id="email" placeholder="Your email..." name="email" required/>
                             </label>
-
                             <label>
-                            <textarea id="comment" name="comment" placeholder="Write something..." required></textarea>
+                            <textarea name="message" id="comment" name="comment" placeholder="Write something..." required></textarea>
                             </label>
-
                             <button type="submit">Send</button>
 
-                            </form> : 
-                     null}
+                        </form> :  null}
+
                     {message && <span>Thanks, I will reply ASAP ;)</span>}
-                </div>
             </div>
+        </div>
         );
-     } ;
+    };
 
 
