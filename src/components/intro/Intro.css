@@ -28,12 +28,12 @@
 }
 .intro .wrapper h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 60px;
+  font-size: 40px;
   margin: 10px 0;
 }
-@media (max-width: 40rem) {
+@media (min-width: 40rem) {
   .intro .wrapper h1 {
-    font-size: 40px;
+    font-size: 60px;
   }
 }
 .intro .wrapper h2 {
@@ -41,11 +41,11 @@
   font-size: 35px;
 }
 .intro .wrapper h3 {
-  font-size: 35px;
+  font-size: 20px;
 }
-@media (max-width: 40rem) {
+@media (min-width: 40rem) {
   .intro .wrapper h3 {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 .intro .wrapper span {

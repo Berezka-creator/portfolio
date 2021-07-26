@@ -1,5 +1,5 @@
 .portfolio {
-  padding-top: 2rem;
+  padding-top: 2.2rem;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,19 +8,6 @@
 }
 .portfolio h1 {
   font-size: 2rem;
-}
-.portfolio ul {
-  margin: 10px;
-  padding: 0;
-  list-style: none;
-  display: flex;
-}
-@media (max-width: 40rem) {
-  .portfolio ul {
-    margin: 10px 0;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 }
 .portfolio .container {
   width: 90%;
