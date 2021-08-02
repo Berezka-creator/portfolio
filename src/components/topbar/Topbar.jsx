@@ -1,13 +1,20 @@
 import React from 'react'
 import "./Topbar.css"
 import {Person, Mail} from "@material-ui/icons"
+import { HashLink as Link } from 'react-router-hash-link'
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
     return (
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">berezka.</a>
+
+                    <Link to= {{
+                        pathname: '/'
+                    }}>
+                        <div className="logo">berezka.</div>
+                    </Link>
+
                     <div className="itemContainer">
                         <Person className="icon"/>
                         <span>+1 415 813 0678</span>

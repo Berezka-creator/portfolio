@@ -13,6 +13,19 @@
     grid-template-areas: "name name" "summary skills" "webexp skills" "exp lang" "edu hobby";
   }
 }
+.resume .pdf {
+  position: fixed;
+  padding: 1rem;
+  right: 10px;
+  opacity: 0.5;
+}
+.resume .pdf .i {
+  width: 2rem;
+  height: 2rem;
+}
+.resume .pdf:hover {
+  opacity: 1;
+}
 .resume h3 {
   font-size: 1.2rem;
   color: #1f2929;

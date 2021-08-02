@@ -1,13 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Resume.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMobile, faAt, faMarker, faLink, faUser, faWrench, faFileCode, faGraduationCap, faBriefcase, faLanguage, faRunning } from '@fortawesome/free-solid-svg-icons'
+import {faArrowCircleDown, faMobile, faAt, faMarker, faLink, faUser, faWrench, faFileCode, faGraduationCap, faBriefcase, faLanguage, faRunning } from '@fortawesome/free-solid-svg-icons'
 import ResumeSection from "./resumeSection/ResumeSection"
+
+import { HashLink as Link } from 'react-router-hash-link'
+
 
 
 export default function Resume() {
+
+  
     return (
         <div className="resume">
+            <span className="pdf">
+            <Link to={{
+                       pathname: '/pdfresume'
+                   }}>  
+                   <FontAwesomeIcon icon={faArrowCircleDown} className="i" />
+            </Link>
+          
+            </span>      
+           
             <div className="title-container">
                 <div className="resume-title">
                      <h1>Julia Berezina</h1>
@@ -38,8 +52,6 @@ export default function Resume() {
                 
             </div>
 
-           
-       
             <ResumeSection 
                 class="summary-container"
                 icon={faUser} 

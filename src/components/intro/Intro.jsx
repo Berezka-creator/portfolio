@@ -21,7 +21,7 @@ export default function Intro() {
             backDelay: 1500,
             backSpeed: 50,
             showCursor: true,
-            strings: ["Developer", "Designer", "Content Creator"]
+            strings: ["Front End Developer"]
 
         })
      

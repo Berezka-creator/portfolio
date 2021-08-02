@@ -21,6 +21,22 @@
                             "edu hobby";
     }
 
+    .pdf {
+        position: fixed;
+        padding: 1rem;
+        right: 10px;
+        opacity: 0.5;
+        .i{
+            width: 2rem;
+            height: 2rem;
+        }
+        &:hover{
+            opacity: 1;
+        }
+        
+        
+    }  
+
     h3{
         font-size: 1.2rem;
         color:rgb(31, 41, 41);
