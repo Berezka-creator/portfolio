@@ -1,32 +1,22 @@
-.project-container {
-  width: 90%;
-  max-width: 1100px;
-  background-color: white;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.project {
+  width: 100%;
+  height: 100%;
 }
-@media (min-width: 40rem) {
-  .project-container {
-    width: 70%;
-  }
+.project .project-container {
+  height: 100%;
 }
-.project-container .project-title {
+.project .project-container .project-title {
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  padding: 1rem 0;
+  margin-bottom: 1rem;
 }
 @media (min-width: 40rem) {
-  .project-container .project-overview {
+  .project .project-container .project-overview {
     display: flex;
   }
 }
-.project-container .project-overview .left {
-  padding: 1rem;
+.project .project-container .project-overview .left {
   flex: 2;
   display: flex;
   flex-direction: column;
@@ -34,21 +24,21 @@
   align-items: center;
   align-content: center;
 }
-.project-container .project-overview .left .project-img-container {
-  width: 310px;
-  height: 220px;
+.project .project-container .project-overview .left .project-img-container {
+  width: 250px;
+  height: 160px;
   border-radius: 20px;
   overflow: hidden;
 }
-.project-container .project-overview .left .project-img-container img {
+.project .project-container .project-overview .left .project-img-container img {
   width: 100%;
   height: 100%;
 }
-.project-container .project-overview .left .project-buttons {
-  margin: 2rem 0;
+.project .project-container .project-overview .left .project-buttons {
+  padding: 1rem 0;
   display: flex;
 }
-.project-container .project-overview .left .project-buttons a {
+.project .project-container .project-overview .left .project-buttons a {
   color: #15023a;
   border-radius: 8px;
   border: none;
@@ -62,34 +52,34 @@
   outline: none;
   text-decoration: none;
 }
-.project-container .project-overview .left .project-buttons a:hover, .project-container .project-overview .left .project-buttons a:active {
+.project .project-container .project-overview .left .project-buttons a:hover, .project .project-container .project-overview .left .project-buttons a:active {
   background-color: #15023a;
   color: white;
 }
-.project-container .project-overview .right {
+.project .project-container .project-overview .right {
   flex: 3;
   padding: 0 1rem;
 }
-.project-container .project-overview .right .project-tools__items {
+.project .project-container .project-overview .right .project-tools__items {
   margin: 0;
   padding: 0;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
-.project-container .project-overview .right .project-tools__items .project-tools__item {
+.project .project-container .project-overview .right .project-tools__items .project-tools__item {
   display: inline;
   padding: 0 1rem 0 0;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 500;
 }
-.project-container .project-overview .right .project-subtitle {
-  font-size: 1.5rem;
+.project .project-container .project-overview .right .project-subtitle {
+  font-size: 1rem;
   font-weight: bold;
   padding: 0.5rem 0;
 }
-.project-container .project-overview .right .project-paragraph {
-  font-size: 1.3rem;
+.project .project-container .project-overview .right .project-paragraph {
+  font-size: 1rem;
   text-align: justify;
 }
 

@@ -11,9 +11,9 @@ export default function ProjectsPage() {
             img: "assets/burger-app.png",
             github: "https://github.com/Berezka-creator/burger-app",
             liveview: "https://berezka-creator.github.io/burger-app/",
-            tools: [ "HTML", "CSS", "JavaScript","ReactJS"],
+            tools: [ "HTML", "CSS", "JavaScript","ReactJS", "Redux", "API", "Fairbase"],
             
-            desc: ";sjdhfksdjhf kjhkhghg ,jsfkd jagdfk.sdh efk idfjs.djh",
+            desc: "This is mobile app to create your custom burger, you can choose ingredients and see how your burger will look like and how much will it cost, than you can procced to checkout and see your orders in orders page.  and added it in your orders, ",
             chell: "It was very difficultbu fun"
         },
         {
@@ -52,10 +52,12 @@ export default function ProjectsPage() {
   
    
     return (
-        <div className="projects">
+        <div className="works">
             <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
-                {data.map((d) => (
-                    <ProjectItem 
+            {data.map((d) => (
+               <div className="container">
+                   <div className="item">
+                   <ProjectItem 
                         title={d.title}
                         img={d.img}
                         gitHubLink={d.github}
@@ -63,6 +65,11 @@ export default function ProjectsPage() {
                         tools={d.tools}
                         desc={d.desc}>
                   </ProjectItem>
+
+                   </div>
+               </div>
+              
+                   
 
                 ))
             }

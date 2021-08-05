@@ -3,7 +3,7 @@ import './BurgerProject.css'
 
 export default function BurgerProject(props) {
     return (
-     
+        <div className="project">
             <div className="project-container"  id={props.id}>
                 <div className="project-title" >{props.title}</div>
                 <div className="project-overview">
@@ -35,15 +35,14 @@ export default function BurgerProject(props) {
                                 {props.desc}
                             </p>
                         </div>
-                <div className="project-challenges">
-                            <h3 className="project-subtitle">Challenges:</h3>
-                            <p className="project-paragraph">
-                              {props.chell}
-                            </p>
-                        </div>
+              
+                         
                 </div>
             </div>
+            
             </div>
-   
+        
+        
+        </div>
     )
 }
