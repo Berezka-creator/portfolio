@@ -41,18 +41,18 @@ export default function Intro() {
             </div>
 
                 <div className="social">
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/julia-berezina/">
                         <img className="icone" src="assets/link.png" alt="" />
                     </a>
                    
-                    <a href="#">
+                    <a href="https://github.com/Berezka-creator">
                         <img className="icone" src="assets/github.png"  alt=""/>
                     </a>
 
-                    <a href="#">
+                    <a href="https://www.facebook.com/yulia.berezina.16">
                         <img className="icone" src="assets/fb.png" alt="" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/julia_b_samara/">
                         <img className="icone inst" src="assets/inst.png"  alt=""/> 
                     </a>   
                 </div>
