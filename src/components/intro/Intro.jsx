@@ -37,22 +37,22 @@ export default function Intro() {
             <div className="wrapper">
                     <h2>Hi There, I'm</h2>
                     <h1>Julia Berezina</h1>
-                    <h3>Freelance <span ref={textRef}></span></h3>
+                    <h3><span ref={textRef}></span></h3>
             </div>
 
                 <div className="social">
-                    <a href="https://www.linkedin.com/in/julia-berezina/">
-                        <img className="icone" src="assets/link.png" alt="" />
+                    <a href="https://www.linkedin.com/in/julia-berezina/" target="_blank">
+                        <img className="icone" src="./assets/link.png" alt="" />
                     </a>
                    
-                    <a href="https://github.com/Berezka-creator">
+                    <a href="https://github.com/Berezka-creator"  target="_blank">
                         <img className="icone" src="assets/github.png"  alt=""/>
                     </a>
 
-                    <a href="https://www.facebook.com/yulia.berezina.16">
+                    <a href="https://www.facebook.com/yulia.berezina.16"  target="_blank">
                         <img className="icone" src="assets/fb.png" alt="" />
                     </a>
-                    <a href="https://www.instagram.com/julia_b_samara/">
+                    <a href="https://www.instagram.com/julia_b_samara/"  target="_blank">
                         <img className="icone inst" src="assets/inst.png"  alt=""/> 
                     </a>   
                 </div>
