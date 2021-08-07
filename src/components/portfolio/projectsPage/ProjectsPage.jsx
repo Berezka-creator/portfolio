@@ -7,6 +7,7 @@ export default function ProjectsPage() {
     const data = [
         {
             id: "1",
+            idcontainer: "burger",
             title: "Burger Builder",
             img: "assets/burger-app.png",
             github: "https://github.com/Berezka-creator/burger-app",
@@ -18,27 +19,40 @@ export default function ProjectsPage() {
         },
         {
             id: "2",
+            idcontainer: "host",
             title: "Hosting App",
             img: "assets/host-app.png",
-            github: "https://github.com/Berezka-creator/burger-app",
+            github: "https://github.com/Berezka-creator/academind_css_project",
             liveview: "https://berezka-creator.github.io/burger-app/",
-            tools: [ "HTML", "CSS", "JavaScript","ReactJS"],
+            tools: [ "HTML", "CSS", "Sass", "JavaScript","ReactJS"],
             
-            desc: ";sjdhfksdjhf kjhkhghg ,jsfkd jagdfk.sdh efk idfjs.djh",
-            chell: "It was very difficultbu fun"
+            desc: "It is an app that provides hosting to the customers, contains four pages with description, testimonials and packages and a form page.",
+            chell: "It was very difficult but fun"
         },
         {
             id: "3",
+            idcontainer: "youtube",
             title: "Youtube Quiz",
             img: "assets/youtubeQuiz.png",
-            github: "https://github.com/Berezka-creator/burger-app",
-            liveview: "https://berezka-creator.github.io/burger-app/",
-            tools: [ "HTML", "CSS", "JavaScript","ReactJS"],
+            github: "https://github.com/Berezka-creator/qtube",
+            liveview: "https://berezka-creator.github.io/qtube/",
+            tools: [ "HTML", "CSS", "JavaScript", "JQuery"],
             
-            desc: ";sjdhfksdjhf kjhkhghg ,jsfkd jagdfk.sdh efk idfjs.djh",
+            desc: "This is a video app for children that will b allowed to watch video just after answer question right.",
+            chell: "It was very difficultbu fun"
+        },
+        {
+            id: "4",
+            idcontainer: "sf",
+            title: "SF Living Wage",
+            img: "assets/youtubeQuiz.png",
+            github: "https://github.com/Berezka-creator/burger-app",
+            liveview: "https://www.csej.org/",
+            tools: [ "WordPress"],
+            
+            desc: "This is a film festival websilte that I made while my volonteering with SF Living Wage organisation, personally I made a main page and about page,also Movie list. ",
             chell: "It was very difficultbu fun"
         }
-
 
     ]
 
@@ -55,7 +69,7 @@ export default function ProjectsPage() {
         <div className="works">
             <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
             {data.map((d) => (
-               <div className="container">
+               <div className="container" id={d.idcontainer}>
                    <div className="item">
                    <ProjectItem 
                         title={d.title}

@@ -42,7 +42,7 @@ export default function Intro() {
 
                 <div className="social">
                     <a href="https://www.linkedin.com/in/julia-berezina/" target="_blank">
-                        <img className="icone" src="./assets/link.png" alt="" />
+                        <img className="icone" src="assets/link.png" alt="" />
                     </a>
                    
                     <a href="https://github.com/Berezka-creator"  target="_blank">
