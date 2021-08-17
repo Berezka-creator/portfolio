@@ -10,7 +10,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                 <div className="left">
 
                     <Link to= {{
-                        pathname: '/'
+                        pathname: '/portfolio'
                     }}>
                         <div className="logo">berezka.</div>
                     </Link>

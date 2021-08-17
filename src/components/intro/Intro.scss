@@ -2,8 +2,7 @@
 
 
 .intro {
-   
-    height: 100vh;
+    height: calc(100vh - 70px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,12 +10,10 @@
     align-self: center;
     overflow: hidden;
     position: relative;
-    
 
     .imgContainer {
         background: linear-gradient(to bottom, rgba(245, 245, 245) 10%, transparent),
          url("./mountains.jpg") center/cover no-repeat;
-       
         height: 90%;
         width: 100%;
         min-width: 800px;
@@ -24,7 +21,6 @@
         position: absolute;
         top: 0;
         bottom: 200px;
-      
     }
 
     .wrapper {

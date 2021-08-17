@@ -10,6 +10,7 @@ import Sections from '../sections/Sections'
 import Resume from '../resume/Resume'
 import PdfResume from '../resume/pdf/pdf'
 import ProjectsPage from '../portfolio/projectsPage/ProjectsPage'
+import "./Layout.css"
 
 
 export default function Layout() {
@@ -23,13 +24,16 @@ export default function Layout() {
             <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}
          />
             {/* <Sections /> */}
-            <Switch>
-                <Route path="/resume" exact component ={Resume} />
-                <Route path="/pdfresume" component = {PdfResume} />
-                <Route path="/projectspage" component ={ProjectsPage} />
-                <Route  path="/" component ={Sections} />
-                <Redirect to ="/" />
-            </Switch> 
+            <div className="layout-body">
+                <Switch>
+                    <Route path="/resume" exact component ={Resume} />
+                    <Route path="/pdfresume" component = {PdfResume} />
+                    <Route path="/projectspage" component ={ProjectsPage} />
+                    <Route  path="/" component ={Sections} />
+                    <Redirect to ="/" />
+                </Switch> 
+            </div>
+           
         </div>
     )
 }

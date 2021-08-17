@@ -4,6 +4,11 @@ import { init } from 'ityped'
 import { useEffect, useRef} from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
 import Resume from '../resume/Resume'
+import arrowDown from './images/down.png'
+import LinkedInIcon from './images/link.png'
+import fbIcon from './images/fb.png'
+import GitHubIcon from './images/github.png'
+import instIcon from './images/inst.png'
 
 
 
@@ -42,18 +47,18 @@ export default function Intro() {
 
                 <div className="social">
                     <a href="https://www.linkedin.com/in/julia-berezina/" target="_blank">
-                        <img className="icone" src="assets/link.png" alt="" />
+                        <img className="icone" src={LinkedInIcon} alt="" />
                     </a>
                    
                     <a href="https://github.com/Berezka-creator"  target="_blank">
-                        <img className="icone" src="assets/github.png"  alt=""/>
+                        <img className="icone" src={GitHubIcon}  alt=""/>
                     </a>
 
                     <a href="https://www.facebook.com/yulia.berezina.16"  target="_blank">
-                        <img className="icone" src="assets/fb.png" alt="" />
+                        <img className="icone" src={fbIcon} alt="" />
                     </a>
                     <a href="https://www.instagram.com/julia_b_samara/"  target="_blank">
-                        <img className="icone inst" src="assets/inst.png"  alt=""/> 
+                        <img className="icone inst" src={instIcon}  alt=""/> 
                     </a>   
                 </div>
 
@@ -67,7 +72,7 @@ export default function Intro() {
                </div>
 
                 <a href="#portfolio" id="arrow">
-                    <img src="assets/down.png" alt="" />
+                    <img src={arrowDown} alt="" />
                 </a>
       
         </div>

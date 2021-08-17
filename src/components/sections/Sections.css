@@ -10,6 +10,8 @@
   display: none;
 }
 .sections > * {
+  height: 100vh;
+  margin-top: 70px;
   width: 100%;
   scroll-snap-align: start;
 }

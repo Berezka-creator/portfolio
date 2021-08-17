@@ -48,7 +48,7 @@ export default function ProjectsPage() {
             img: "assets/youtubeQuiz.png",
             github: "https://github.com/Berezka-creator/burger-app",
             liveview: "https://www.csej.org/",
-            tools: [ "WordPress"],
+            tools: [ "WordPress", "Elementor"],
             
             desc: "This is a film festival websilte that I made while my volonteering with SF Living Wage organisation, personally I made a main page and about page,also Movie list. ",
             chell: "It was very difficultbu fun"
