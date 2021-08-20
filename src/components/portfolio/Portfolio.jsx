@@ -8,22 +8,19 @@ import  {
 } from "../../data";
 import { HashLink as Link } from 'react-router-hash-link'
 
-import burgerApp from './images/burger-app.png'
-import hostApp from './images/host-app.png'
-import sfLiving from './images/sfliving.png'
-import youtubeQuiz from './images/youtubeQuiz.png'
+import burgerApp from '../../images/burger-app.png'
+import hostApp from '../../images/host-app.png'
+import sfLiving from '../../images/sfliving.png'
+import youtubeQuiz from '../../images/youtubeQuiz.png'
 
 
 
 export default function Portfolio() {
-
   
     return (
         <div className="portfolio" id="portfolio">
 
-            
             <h1>Portfolio</h1>
-           
 
             <div className="container">
                 <div className="item">

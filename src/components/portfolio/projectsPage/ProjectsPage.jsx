@@ -1,6 +1,14 @@
 import { useState } from 'react'
 import './ProjectsPage.css'
 import ProjectItem from './project/BurgerProject'
+import arrow from "../../../images/arrow.png"
+
+
+import burgerApp from '../../../images/burger-app.png'
+import hostApp from '../../../images/host-app.png'
+import sfLiving from '../../../images/sfliving.png'
+import youtubeQuiz from '../../../images/youtubeQuiz.png'
+
 
 export default function ProjectsPage() {
 
@@ -9,7 +17,7 @@ export default function ProjectsPage() {
             id: "1",
             idcontainer: "burger",
             title: "Burger Builder",
-            img: "assets/burger-app.png",
+            img: burgerApp,
             github: "https://github.com/Berezka-creator/burger-app",
             liveview: "https://berezka-creator.github.io/burger-app/",
             tools: [ "HTML", "CSS", "JavaScript","ReactJS", "Redux", "API", "Fairbase"],
@@ -21,7 +29,7 @@ export default function ProjectsPage() {
             id: "2",
             idcontainer: "host",
             title: "Hosting App",
-            img: "assets/host-app.png",
+            img: hostApp,
             github: "https://github.com/Berezka-creator/academind_css_project",
             liveview: "https://berezka-creator.github.io/burger-app/",
             tools: [ "HTML", "CSS", "Sass", "JavaScript","ReactJS"],
@@ -33,7 +41,7 @@ export default function ProjectsPage() {
             id: "3",
             idcontainer: "youtube",
             title: "Youtube Quiz",
-            img: "assets/youtubeQuiz.png",
+            img: youtubeQuiz,
             github: "https://github.com/Berezka-creator/qtube",
             liveview: "https://berezka-creator.github.io/qtube/",
             tools: [ "HTML", "CSS", "JavaScript", "JQuery"],
@@ -45,7 +53,7 @@ export default function ProjectsPage() {
             id: "4",
             idcontainer: "sf",
             title: "SF Living Wage",
-            img: "assets/youtubeQuiz.png",
+            img: sfLiving,
             github: "https://github.com/Berezka-creator/burger-app",
             liveview: "https://www.csej.org/",
             tools: [ "WordPress", "Elementor"],
@@ -92,9 +100,9 @@ export default function ProjectsPage() {
                  
          
 
-           <img src="assets/arrow.png" className="arrow left" alt="" onClick ={() => handleClick("left")}/>
+           <img src={arrow} className="arrow left" alt="" onClick ={() => handleClick("left")}/>
           
-           <img src="assets/arrow.png" className="arrow right" alt="" onClick ={() => handleClick("rigth")}/>
+           <img src={arrow} className="arrow right" alt="" onClick ={() => handleClick("rigth")}/>
            
         </div>
     );

@@ -4,11 +4,11 @@ import { init } from 'ityped'
 import { useEffect, useRef} from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
 import Resume from '../resume/Resume'
-import arrowDown from './images/down.png'
-import LinkedInIcon from './images/link.png'
-import fbIcon from './images/fb.png'
-import GitHubIcon from './images/github.png'
-import instIcon from './images/inst.png'
+import arrowDown from '../../images/down.png'
+import LinkedInIcon from '../../images/link.png'
+import fbIcon from '../../images/fb.png'
+import GitHubIcon from '../../images/github.png'
+import instIcon from '../../images/inst.png'
 
 
 
@@ -45,7 +45,7 @@ export default function Intro() {
                     <h3><span ref={textRef}></span></h3>
             </div>
 
-                <div className="social">
+            <div className="social">
                     <a href="https://www.linkedin.com/in/julia-berezina/" target="_blank">
                         <img className="icone" src={LinkedInIcon} alt="" />
                     </a>

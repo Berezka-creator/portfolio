@@ -1,6 +1,12 @@
 import React from 'react'
 import './BurgerProject.css'
 
+import burgerApp from '../../../../images/burger-app.png'
+import hostApp from '../../../../images/host-app.png'
+import sfLiving from '../../../../images/sfliving.png'
+import youtubeQuiz from '../../../../images/youtubeQuiz.png'
+
+
 export default function BurgerProject(props) {
     return (
         <div className="project">
