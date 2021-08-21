@@ -24,7 +24,7 @@ export default function Resume() {
            
             <div className="title-container">
                 <div className="resume-title">
-                     <h1>Julia Berezina</h1>
+                    <h1>Julia Berezina</h1>
                     <h2>Front End Developer</h2>
                 </div>
 

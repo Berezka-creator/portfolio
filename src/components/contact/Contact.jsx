@@ -9,22 +9,18 @@ export default function Contact() {
     const [message, setMessage] = useState(false);
     const [form, showForm] = useState(true);
 
-
-
     function sendEmail(e) {
         e.preventDefault();
    
-    emailjs.sendForm('service_sd9giec', 'template_83aqx4c', e.target, "user_foLN1bYDlF1jKYwQM8UUe")
+        emailjs.sendForm('service_sd9giec', 'template_83aqx4c', e.target, "user_foLN1bYDlF1jKYwQM8UUe")
     
-    .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-
-      setMessage(true)
-      showForm(false)
-
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        setMessage(true)
+        showForm(false)
     } 
 
 
@@ -37,12 +33,11 @@ export default function Contact() {
                 <h2>Contact</h2>    
                     {showForm ? form &&
                         <form id="myForm" onSubmit={sendEmail}>
-
                             <label>
-                            <input name="email" type="email" id="email" placeholder="Your email..." name="email" required/>
+                                <input name="email" type="email" id="email" placeholder="Your email..." name="email" required/>
                             </label>
                             <label>
-                            <textarea name="message" id="comment" name="comment" placeholder="Write something..." required></textarea>
+                                <textarea name="message" id="comment" name="comment" placeholder="Write something..." required></textarea>
                             </label>
                             <button type="submit">Send</button>
 

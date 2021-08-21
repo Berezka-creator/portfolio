@@ -64,8 +64,6 @@ export default function ProjectsPage() {
         : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0)
     }
 
-  
-   
     return (
         <div className="works">
             <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
@@ -84,9 +82,9 @@ export default function ProjectsPage() {
                     </div>
                 ))}
             </div>
-            
-           <img src={arrow} className="arrow left" alt="" onClick ={() => handleClick("left")}/>
-           <img src={arrow} className="arrow right" alt="" onClick ={() => handleClick("rigth")}/>
+
+            <img src={arrow} className="arrow left" alt="" onClick ={() => handleClick("left")}/>
+            <img src={arrow} className="arrow right" alt="" onClick ={() => handleClick("rigth")}/>
            
         </div>
     );

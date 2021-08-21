@@ -11,7 +11,6 @@ export default function Section() {
                 <Intro/>
                 <Portfolio />
                 <Contact /> 
-            </div>
-       
+        </div>
     )
 }

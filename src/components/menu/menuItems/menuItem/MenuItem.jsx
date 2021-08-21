@@ -7,8 +7,8 @@ export default function menuItem(props) {
     return (
         <li className="menuItem" >
             <Link
-            to={props.link}
-            >{props.children}</Link>
+                to={props.link}
+                >{props.children}</Link>
         </li>
     )
 }

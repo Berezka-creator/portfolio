@@ -15,15 +15,12 @@ import "./Layout.css"
 
 export default function Layout() {
 
-   
-
     const [menuOpen, setMenuOpen] = useState(false)
+   
     return (
         <div className="layout">
             <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-            <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}
-         />
-            {/* <Sections /> */}
+            <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
             <div className="layout-body">
                 <Switch>
                     <Route path="/resume" exact component ={Resume} />
@@ -33,7 +30,6 @@ export default function Layout() {
                     <Redirect to ="/" />
                 </Switch> 
             </div>
-           
         </div>
     )
 }

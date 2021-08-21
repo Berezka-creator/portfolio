@@ -11,13 +11,8 @@ import GitHubIcon from '../../images/github.png'
 import instIcon from '../../images/inst.png'
 
 
-
-
-
 export default function Intro() {
 
-    //for class component we will use componentdidMount, but for functional component we use reack hooks useEffect
-    //useRef works as a queryselector 
     const textRef = useRef();
     
     useEffect(() => {
@@ -27,17 +22,12 @@ export default function Intro() {
             backSpeed: 50,
             showCursor: true,
             strings: ["Front End Developer"]
-
         })
-     
-
-
     },[])
 
     return (
         <div className="intro" id="intro">
-            <div className="imgContainer">
-            </div>
+            <div className="imgContainer"></div>
           
             <div className="wrapper">
                     <h2>Hi There, I'm</h2>
@@ -62,18 +52,17 @@ export default function Intro() {
                     </a>   
                 </div>
 
-               <div className="buttons">
-                   <Link to='/#portfolio'>Portfolio</Link>
+            <div className="buttons">
+                <Link to='/#portfolio'>Portfolio</Link>
                   
-                   <Link to={{
-                       pathname: '/resume'
-                     
-                   }}>Resume</Link>
-               </div>
+                <Link to={{
+                        pathname: '/resume'
+                        }}>Resume</Link>
+            </div>
 
-                <a href="#portfolio" id="arrow">
-                    <img src={arrowDown} alt="" />
-                </a>
+            <a href="#portfolio" id="arrow">
+                <img src={arrowDown} alt="" />
+            </a>
       
         </div>
     )
