@@ -7,6 +7,7 @@
   align-self: center;
   overflow: hidden;
   position: relative;
+  top: 0;
 }
 .intro .imgContainer {
   background: linear-gradient(to bottom, whitesmoke 10%, transparent), url("./mountains.jpg") center/cover no-repeat;
@@ -25,7 +26,6 @@
   justify-content: center;
   align-items: center;
   z-index: 2;
-  margin-top: 50px;
 }
 .intro .wrapper h1 {
   font-family: "Roboto", sans-serif;

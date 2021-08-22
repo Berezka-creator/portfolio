@@ -1,5 +1,8 @@
 .layout {
   font-family: "Montserrat", sans-serif;
 }
+.layout .layout-body {
+  padding-top: 4.3rem;
+}
 
 /*# sourceMappingURL=Layout.css.map */
