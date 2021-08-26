@@ -25,7 +25,8 @@
     }
 
     .wrapper {
-        width: 100%;
+      
+        width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -33,26 +34,26 @@
         z-index:2;
 
         h1{
+            display: block;
             font-family: 'Roboto', sans-serif;
-            font-size: 40px;
+            font-size: 2rem;
             margin:  10px 0;
 
             @include desktop {
-                font-size: 60px;
+                font-size: 3rem;
+                max-width: 90%;
             }
         }
 
         h2{
             font-family: 'Roboto', sans-serif;
-            font-size: 35px;
+            font-size: 1.5rem;
             }
 
         h3 {
-                font-size: 20px;
+                font-size: 1rem;
 
-                @include desktop {
-                    font-size: 30px;
-                }
+               
             }
    
         span {
@@ -91,6 +92,7 @@
     
         .icone {
             width:2rem;
+           
             height: 2rem;
             margin: 1rem 1rem;
             cursor: pointer;
@@ -107,7 +109,7 @@
 
     .buttons {
         z-index:2;
-        margin: 2rem 0;
+        margin: 1rem 0;
         display: flex;
        
         a{
