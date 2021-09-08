@@ -18,8 +18,8 @@ export default function ProjectsPage() {
             img: burgerApp,
             github: "https://github.com/Berezka-creator/burger-app",
             liveview: "https://berezka-creator.github.io/burger-app/",
-            tools: [ "HTML", "CSS", "JavaScript","ReactJS", "Redux", "API", "Fairbase"],
-            desc: "This is mobile app to create your custom burger, you can choose ingredients and see how your burger will look like and how much will it cost, than you can procced to checkout and see your orders in orders page.  and added it in your orders, ",
+            tools: [ "HTML", "CSS", "JavaScript","ReactJS", "Redux", "API", "Firebase"],
+            desc: "This is a web application that uses ReactJS to create your custom burger, you can choose ingredients and see how your burger will look like and how much will it cost,  The burger animation is done through CSS for faster perfomance. Than you can proceed to checkout and once you submited, it is stored in a database using Firebase. This allows to login and view your orders anytime in the future. ",
             chell: "It was very difficultbu fun"
         },
         {
@@ -28,20 +28,20 @@ export default function ProjectsPage() {
             title: "Hosting App",
             img: hostApp,
             github: "https://github.com/Berezka-creator/academind_css_project",
-            liveview: "https://berezka-creator.github.io/burger-app/",
+            liveview: "https://berezka-creator.github.io/academind_css_project/",
             tools: [ "HTML", "CSS", "Sass", "JavaScript","ReactJS"],
-            desc: "It is an app that provides hosting to the customers, contains four pages with description, testimonials and packages and a form page.",
+            desc: "It is a website that provides information about hosting to the customers. The purpose of this project was to practice on CSS features such as: Flexboxes, Grid Layout and SASS.",
             chell: "It was very difficult but fun"
         },
         {
             id: "3",
             idcontainer: "youtube",
-            title: "Youtube Quiz",
+            title: "Quby",
             img: youtubeQuiz,
             github: "https://github.com/Berezka-creator/qtube",
             liveview: "https://berezka-creator.github.io/qtube/",
-            tools: [ "HTML", "CSS", "JavaScript", "JQuery"],
-            desc: "This is a video app for children that will b allowed to watch video just after answer question right.",
+            tools: [ "HTML", "CSS", "JavaScript", "JQuery", "YoutubeData API", "Youtube Player API"],
+            desc: "This is a web application that is similar to youtube but instead of adds, a question is displayed and the client need to answer correctly before being able to play the desired video. It is using YoutubeData API to search for videos and Youtube Player API to play the videos. Logic is done through JQuery and AJAX.",
             chell: "It was very difficultbu fun"
         },
         {
@@ -49,10 +49,10 @@ export default function ProjectsPage() {
             idcontainer: "sf",
             title: "SF Living Wage",
             img: sfLiving,
-            github: "#",
+            github: "https://www.csej.org/",
             liveview: "https://www.csej.org/",
             tools: [ "WordPress", "Elementor"],
-            desc: "This is a film festival websilte that I made while my volonteering with SF Living Wage organisation, personally I made a main page and about page,also Movie list. ",
+            desc: "This is a film festival websilte that I made while my volonteering at SF Living Wage organisation, personally I made a main page and about page, also Movie list. The website was done using Wordpress and was taken life.",
             chell: "It was very difficultbu fun"
         }
     ]

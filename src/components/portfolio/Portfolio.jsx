@@ -23,35 +23,36 @@ export default function Portfolio() {
             <h1>Portfolio</h1>
 
             <div className="container">
+
+                <Link to='/projectspage#burger'>
                 <div className="item">
-                    <Link to='/projectspage#burger'>
-                        <img src={burgerApp} alt="" />
-                    </Link>
+                    <img src={burgerApp} alt="" />
                     <h3>Burger Builder</h3>
                 </div>
-                   
-                    <div className="item">
-                        <Link to='/projectspage#host'>
-                            <img src={hostApp} alt="" />
-                        </Link>
-                        <h3>Hosting App</h3>
-                    </div>
-                    <div className="item">
-                        <Link to='/projectspage#youtube'>
-                            <img src={youtubeQuiz} alt="" />    
-                        </Link>
-                        <h3>Youtube Quiz</h3>
-                    </div>
+            </Link>
 
-                    <div className="item">
-                        <Link to='/projectspage#sf'>
-                            <img src={sfLiving} alt="" />
-                        </Link>
-                        <h3>WordPress</h3>
-                    </div>       
+                <Link to='/projectspage#host'>      
+                <div className="item">
+                    <img src={hostApp} alt="" />
+                    <h3>Hosting App</h3>
+                </div>
+            </Link>
+
+                <Link to='/projectspage#youtube'>       
+                <div className="item">
+                    <img src={youtubeQuiz} alt="" />    
+                    <h3>Youtube Quiz</h3>
+                </div>
+            </Link>
+
+                <Link to='/projectspage#sf'>       
+                <div className="item">
+                    <img src={sfLiving} alt="" />
+                    <h3>WordPress</h3>
+                </div>   
+            </Link>
+
             </div>
-
         </div>
-    
     );
 }
