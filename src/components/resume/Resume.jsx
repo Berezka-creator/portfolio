@@ -31,12 +31,12 @@ export default function Resume() {
                 <div className="resume-contact contact-container">
                 <div className="contact-item">
                     <FontAwesomeIcon icon={faMobile} className="i" />
-                    <p>+1 (415)632-0302</p>
+                    <p><a href="callto:+14156320302">+1 (415)632-0302</a></p>
 
                 </div>
                 <div className="contact-item">
                     <FontAwesomeIcon icon={faAt}  className="i"/>
-                    <p>berezina.y.v.2015@gmail.com</p>
+                    <p><a href = "mailto:berezina.y.v.2015@gmail.com">berezina.y.v.2015@gmail.com</a></p>
 
                 </div>
                 <div className="contact-item">
@@ -46,7 +46,7 @@ export default function Resume() {
                 </div>
                 <div className="contact-item">
                     <FontAwesomeIcon icon={faLink}  className="i"/>
-                     <p>www.github/berezka-creator.com</p>
+                     <p><a href="https://github.com/berezka-creator"  target="_blank">github.com/berezka-creator</a></p>
                 </div>
              </div>
                 
@@ -56,7 +56,7 @@ export default function Resume() {
                 class="summary-container"
                 icon={faUser} 
                 title ="Summary">
-               <p>As a problem solver individual with over five years of engineering and project management experience, I would like to pursue a career change to software engineer and aiming to be considered for a software engineer/front-end developer internship.</p>
+               <p>As a motivated and determined individual with over five years of engineering, project management and one year of Web Application Development experience, I would like to pursue a career change to Front End Web Development </p>
            </ResumeSection>
 
             <ResumeSection 
@@ -66,17 +66,23 @@ export default function Resume() {
                <div className="skills">
                     <div>HTML</div>
                     <div>CSS</div>
+                    <div>SASS</div>
                     <div>JavaScript</div>
-                    <div>JQuery</div>
+                    <div>jQuery</div>
                     <div>ReactJS</div>
                     <div>Bootstrap</div>
+                    <div>Python</div>
+                    <div>REST API</div>
+                    <div>MySQL</div>
+                    <div>WordPress</div>
+                    <div>Photoshop</div>
                </div>
            </ResumeSection>
 
             <ResumeSection 
                 class="webexp-container"
                 icon={faFileCode} 
-                title="Web Experience">
+                title="Web Application Development Experience">
                 <div className="experience">
                     <div className="experience__item">
                     <h3>WordPress Developer </h3>
@@ -84,7 +90,7 @@ export default function Resume() {
                         <h5>Sep 2020 - Dec 2020</h5>
                         <ul>
                             <li>Developed a new website from scratch for the Film Festival using WordPress.
-                                 https://www.csej.org/</li>
+                            <li><a href="https://www.csej.org/" target="_blank">https://www.csej.org/</a></li></li>
                             <li>Collaborated with team members to ensure a positive user experience.</li>
                                 <li>Researched relevant designs that fit the website and presented it to the team with recommendations.</li>
                             <li>Maintained Sf Living Wage’s home website; fixed the auction module and other bugs as needed.
@@ -98,7 +104,7 @@ export default function Resume() {
                         <h5>June 2020 - August 2020</h5>
                         <ul>
                             <li>Contributed to the SF Bay Area Relief web application using React. It provided a database for non-profits to search for grants and loans relevant to their organization.
-                                https://github.com/sfbrigade/datasci-bay-area-relief-frontend</li>
+                            <li><a href="https://github.com/sfbrigade/datasci-bay-area-relief-frontend" target="_blank">https://github.com/sfbrigade/datasci-bay-area-relief-frontend</a></li></li>
                             <li>Worked collaboratively with other development teams.</li>
                             <li>Researched relevant designs that fit the website and presented it to the team with recommendations.</li>
                             <li>Built the test code for each React component.</li>
@@ -176,8 +182,8 @@ export default function Resume() {
                 title="Hobby">
                     <div className="hobby">
                         <div>Capoeira</div>
-                        <div>Human Biology</div>
-                        <div>Earth Science</div>   
+                        <div>Psychology</div>
+                        <div>Wind/Wave Surfing</div>
                     </div>
                
             </ResumeSection>

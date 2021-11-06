@@ -25,34 +25,34 @@ export default function ProjectsPage() {
         {
             id: "2",
             idcontainer: "host",
-            title: "Hosting App",
+            title: "Hosting Website",
             img: hostApp,
             github: "https://github.com/Berezka-creator/academind_css_project",
             liveview: "https://berezka-creator.github.io/academind_css_project/",
-            tools: [ "HTML", "CSS", "Sass", "JavaScript","ReactJS"],
-            desc: "It is a website that provides information about hosting to the customers. The purpose of this project was to practice on CSS features such as: Flexboxes, Grid Layout and SASS.",
+            tools: [ "HTML", "CSS", "Sass", "JavaScript","Responsive Web Design"],
+            desc: "It is a website that provides information about hosting to the customers. The purpose of this project was to practice on CSS features such as: Flexboxes, Grid Layout, Responsive Web Design,  SASS.",
             chell: "It was very difficult but fun"
         },
         {
             id: "3",
             idcontainer: "youtube",
-            title: "Quby",
+            title: "Youtube API Application",
             img: youtubeQuiz,
             github: "https://github.com/Berezka-creator/qtube",
             liveview: "https://berezka-creator.github.io/qtube/",
-            tools: [ "HTML", "CSS", "JavaScript", "JQuery", "YoutubeData API", "Youtube Player API"],
+            tools: [ "HTML", "CSS", "JavaScript", "JQuery", "Ajax", "YoutubeData API", "Youtube Player API", "SASS"],
             desc: "This is a web application that is similar to youtube but instead of adds, a question is displayed and the client need to answer correctly before being able to play the desired video. It is using YoutubeData API to search for videos and Youtube Player API to play the videos. Logic is done through JQuery and AJAX.",
             chell: "It was very difficultbu fun"
         },
         {
             id: "4",
             idcontainer: "sf",
-            title: "SF Living Wage",
+            title: "Film Festival",
             img: sfLiving,
             github: "https://www.csej.org/",
             liveview: "https://www.csej.org/",
             tools: [ "WordPress", "Elementor"],
-            desc: "This is a film festival websilte that I made while my volonteering at SF Living Wage organisation, personally I made a main page and about page, also Movie list. The website was done using Wordpress and was taken life.",
+            desc: "This is a film festival websilte that I made while my interning at SF Living Wage organisation, personally I made a main page and about page, also Movie list. The website was done using Wordpress and was taken life.",
             chell: "It was very difficultbu fun"
         }
     ]

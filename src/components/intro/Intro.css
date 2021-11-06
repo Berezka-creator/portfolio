@@ -20,18 +20,23 @@
   bottom: 200px;
 }
 .intro .wrapper {
-  width: 50%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 2;
 }
+@media (min-width: 40rem) {
+  .intro .wrapper {
+    width: 50%;
+  }
+}
 .intro .wrapper h1 {
   display: block;
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
-  margin: 10px 0;
+  margin: 1% 0;
 }
 @media (min-width: 40rem) {
   .intro .wrapper h1 {
@@ -77,6 +82,9 @@
 }
 .intro .social .icone img {
   width: 100%;
+}
+.intro .social .icone:hover {
+  opacity: 0.5;
 }
 .intro .social .inst {
   padding: 3px;

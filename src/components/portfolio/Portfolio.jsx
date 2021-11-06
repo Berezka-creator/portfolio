@@ -26,29 +26,29 @@ export default function Portfolio() {
 
                 <Link to='/projectspage#burger'>
                 <div className="item">
-                    <img src={burgerApp} alt="" />
+                    <img src={burgerApp} alt="Burger Builder Web Application" />
                     <h3>Burger Builder</h3>
                 </div>
             </Link>
 
                 <Link to='/projectspage#host'>      
                 <div className="item">
-                    <img src={hostApp} alt="" />
-                    <h3>Hosting App</h3>
+                    <img src={hostApp} alt="Hosting Website" />
+                    <h3>Hosting Website</h3>
                 </div>
             </Link>
 
                 <Link to='/projectspage#youtube'>       
                 <div className="item">
-                    <img src={youtubeQuiz} alt="" />    
-                    <h3>Youtube Quiz</h3>
+                    <img src={youtubeQuiz} alt="Youtube API Application" />
+                    <h3>Youtube API Application </h3>
                 </div>
             </Link>
 
                 <Link to='/projectspage#sf'>       
                 <div className="item">
-                    <img src={sfLiving} alt="" />
-                    <h3>WordPress</h3>
+                    <img src={sfLiving} alt="Film Festival" />
+                    <h3>Film Festival</h3>
                 </div>   
             </Link>
 
