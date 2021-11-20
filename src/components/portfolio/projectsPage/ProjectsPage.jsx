@@ -6,6 +6,7 @@ import burgerApp from '../../../images/burger-app.png'
 import hostApp from '../../../images/host-app.png'
 import sfLiving from '../../../images/sfliving.png'
 import youtubeQuiz from '../../../images/youtubeQuiz.png'
+import samara from '../../../images/samara.png'
 
 
 export default function ProjectsPage() {
@@ -54,7 +55,18 @@ export default function ProjectsPage() {
             tools: [ "WordPress", "Elementor"],
             desc: "This is a film festival websilte that I made while my interning at SF Living Wage organisation, personally I made a main page and about page, also Movie list. The website was done using Wordpress and was taken life.",
             chell: "It was very difficultbu fun"
+        },
+        {
+            id: "5",
+            idcontainer: "samara",
+            title: "WordPress Samara Group",
+            img: samara,
+            liveview: "http://www.samaragroup.org/",
+            tools: [ "WordPress", "Elementor"],
+            desc: "This is WordPress website that I made for Samara Group company that summarizes their services.",
+            chell: "It was very difficultbu fun"
         }
+     
     ]
 
     const [currentSlide, setCurrentSlide] = useState(0);

@@ -13,6 +13,7 @@ import hostApp from '../../images/host-app.png'
 import sfLiving from '../../images/sfliving.png'
 import youtubeQuiz from '../../images/youtubeQuiz.png'
 import foodApp from '../../images/food-app.png'
+import samara from '../../images/samara.png'
 
 
 
@@ -32,10 +33,10 @@ export default function Portfolio() {
                 </div>
             </Link>
 
-            <Link to='/projectspage#food'>
+            <Link to='#'>
                 <div className="item">
                     <img src={foodApp} alt="Restarant Web Application" />
-                    <h3>React Restaurant App</h3>
+                    <h3>React Restaurant App <br/><span>(description is in a process)</span></h3>
                 </div>
             </Link>
 
@@ -59,6 +60,15 @@ export default function Portfolio() {
                     <h3>WordPress Film Festival</h3>
                 </div>   
             </Link>
+
+            <Link to='/projectspage#samara'>       
+                <div className="item">
+                    <img src={samara} alt="Samara" />
+                    <h3>WordPress Samara Group</h3>
+                </div>   
+            </Link>
+
+
 
             </div>
         </div>
