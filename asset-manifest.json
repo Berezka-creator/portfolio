@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.70f6de46.chunk.css",
-    "main.js": "/portfolio/static/js/main.c3160db8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c3160db8.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.d6b603e6.chunk.css",
+    "main.js": "/portfolio/static/js/main.addecc94.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.addecc94.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.02ffacd3.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.02ffacd3.js.map",
     "static/css/2.be43f86e.chunk.css": "/portfolio/static/css/2.be43f86e.chunk.css",
-    "static/js/2.96a4ab86.chunk.js": "/portfolio/static/js/2.96a4ab86.chunk.js",
-    "static/js/2.96a4ab86.chunk.js.map": "/portfolio/static/js/2.96a4ab86.chunk.js.map",
+    "static/js/2.e23ffc58.chunk.js": "/portfolio/static/js/2.e23ffc58.chunk.js",
+    "static/js/2.e23ffc58.chunk.js.map": "/portfolio/static/js/2.e23ffc58.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.be43f86e.chunk.css.map": "/portfolio/static/css/2.be43f86e.chunk.css.map",
-    "static/css/main.70f6de46.chunk.css.map": "/portfolio/static/css/main.70f6de46.chunk.css.map",
-    "static/js/2.96a4ab86.chunk.js.LICENSE.txt": "/portfolio/static/js/2.96a4ab86.chunk.js.LICENSE.txt",
+    "static/css/main.d6b603e6.chunk.css.map": "/portfolio/static/css/main.d6b603e6.chunk.css.map",
+    "static/js/2.e23ffc58.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e23ffc58.chunk.js.LICENSE.txt",
     "static/media/burger-app.e6b1dc03.png": "/portfolio/static/media/burger-app.e6b1dc03.png",
     "static/media/food-app.53c78889.png": "/portfolio/static/media/food-app.53c78889.png",
     "static/media/host-app.f9bd1628.png": "/portfolio/static/media/host-app.f9bd1628.png",
     "static/media/Intro.css": "/portfolio/static/media/mountains.a187a001.jpg",
+    "static/media/samara.27308b2b.png": "/portfolio/static/media/samara.27308b2b.png",
     "static/media/sfliving.453e5dd9.png": "/portfolio/static/media/sfliving.453e5dd9.png",
     "static/media/shake.c7165a1f.svg": "/portfolio/static/media/shake.c7165a1f.svg",
     "static/media/youtubeQuiz.e73d4b35.png": "/portfolio/static/media/youtubeQuiz.e73d4b35.png"
@@ -23,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.02ffacd3.js",
     "static/css/2.be43f86e.chunk.css",
-    "static/js/2.96a4ab86.chunk.js",
-    "static/css/main.70f6de46.chunk.css",
-    "static/js/main.c3160db8.chunk.js"
+    "static/js/2.e23ffc58.chunk.js",
+    "static/css/main.d6b603e6.chunk.css",
+    "static/js/main.addecc94.chunk.js"
   ]
 }
