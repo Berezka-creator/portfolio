@@ -45,6 +45,7 @@
   position: absolute;
   font-size: 20px;
   opacity: 0;
+  text-align: center;
 }
 .portfolio .container .item img {
   width: 100%;
