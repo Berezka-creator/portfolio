@@ -12,7 +12,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     <Link to= {{
                         pathname: '/portfolio'
                     }}>
-                        <div className="logo">berezka.</div>
+                        <div className="logo">b.</div>
                     </Link>
 
                     <div className="itemContainer">

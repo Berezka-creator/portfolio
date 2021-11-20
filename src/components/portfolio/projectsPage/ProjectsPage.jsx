@@ -79,12 +79,14 @@ export default function ProjectsPage() {
                                 desc={d.desc}>
                             </ProjectItem>
                         </div>
+                       
                     </div>
                 ))}
             </div>
-
             <img src={arrow} className="arrow left" alt="" onClick ={() => handleClick("left")}/>
-            <img src={arrow} className="arrow right" alt="" onClick ={() => handleClick("rigth")}/>
+                        <img src={arrow} className="arrow right" alt="" onClick ={() => handleClick("rigth")}/>
+
+         
            
         </div>
     );

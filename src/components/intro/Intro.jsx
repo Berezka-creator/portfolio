@@ -33,9 +33,7 @@ export default function Intro() {
                     <h2>Hi There, I'm</h2>
                     <h1>Julia Berezina</h1>
                     <h3><span ref={textRef}></span></h3>
-            </div>
-
-            <div className="social">
+                    <div className="social">
                     <a href="https://www.linkedin.com/in/julia-berezina/" target="_blank">
                         <img className="icone" src={LinkedInIcon} alt="" />
                     </a>
@@ -52,13 +50,17 @@ export default function Intro() {
                     </a>   
                 </div>
 
-            <div className="buttons">
+                <div className="buttons">
                 <Link to='/#portfolio'>Portfolio</Link>
                   
                 <Link to={{
                         pathname: '/resume'
                         }}>Resume</Link>
+                </div>
             </div>
+
+           
+         
 
             <a href="#portfolio" id="arrow">
                 <img src={arrowDown} alt="" />

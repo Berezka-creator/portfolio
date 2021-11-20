@@ -1,5 +1,4 @@
 .intro {
-  height: calc(100vh - 70px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,33 +67,33 @@
     opacity: 0;
   }
 }
-.intro .social {
+.intro .wrapper .social {
   z-index: 2;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.intro .social .icone {
+.intro .wrapper .social .icone {
   width: 2rem;
   height: 2rem;
   margin: 1rem 1rem;
   cursor: pointer;
 }
-.intro .social .icone img {
+.intro .wrapper .social .icone img {
   width: 100%;
 }
-.intro .social .icone:hover {
+.intro .wrapper .social .icone:hover {
   opacity: 0.5;
 }
-.intro .social .inst {
+.intro .wrapper .social .inst {
   padding: 3px;
 }
-.intro .buttons {
+.intro .wrapper .buttons {
   z-index: 2;
   margin: 1rem 0;
   display: flex;
 }
-.intro .buttons a {
+.intro .wrapper .buttons a {
   color: #15023a;
   border-radius: 8px;
   border: none;
@@ -108,7 +107,7 @@
   outline: none;
   text-decoration: none;
 }
-.intro .buttons a:hover, .intro .buttons a:active {
+.intro .wrapper .buttons a:hover, .intro .wrapper .buttons a:active {
   background-color: #15023a;
   color: white;
 }
