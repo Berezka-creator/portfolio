@@ -21,6 +21,11 @@
     .left {
         flex: 1;
         overflow: hidden;
+        display: none;
+
+        @include desktop{
+            display: block;
+        }
 
         img {
             height: 100%;
@@ -59,6 +64,7 @@
 
             label{
                 width: 100%;
+                padding: 0.3rem 0;
             }
 
             input{

@@ -1,9 +1,38 @@
+@import "../../global.scss";
+
 .layout {
     font-family: 'Montserrat', sans-serif; 
 
     .layout-body {
         padding-top: 4.3rem;
     }
+    
+
+.top-link {
+    font-size: 1.25rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    background: $mainColor;
+    opacity: 0.6;
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    border-radius:3px;
+    color: white;
+    animation: bounce 2s ease-in-out infinite;
   
-   
+    visibility: hidden;
+    z-index: -100;
+
+    &:hover{
+      opacity: 1;
+    }
+  }
+
+  .show-link {
+    visibility: visible;
+    z-index: 100;
+  }
 }

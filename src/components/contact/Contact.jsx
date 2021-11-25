@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
 import "./Contact.css";
-import handShake from '../../images/shake.svg'
+import handShake from './shake.svg'
 
 
 export default function Contact() {
@@ -27,7 +27,7 @@ export default function Contact() {
     return (
         <div className="contact" id="contact">
             <div className="left">
-                <img src={handShake} alt="" />
+                <img src={handShake} alt="hand shake" />
             </div>
             <div className="right">
                 <h2>Contact</h2>    

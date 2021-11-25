@@ -4,5 +4,29 @@
 .layout .layout-body {
   padding-top: 4.3rem;
 }
+.layout .top-link {
+  font-size: 1.25rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  background: #15023a;
+  opacity: 0.6;
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: 3px;
+  color: white;
+  animation: bounce 2s ease-in-out infinite;
+  visibility: hidden;
+  z-index: -100;
+}
+.layout .top-link:hover {
+  opacity: 1;
+}
+.layout .show-link {
+  visibility: visible;
+  z-index: 100;
+}
 
 /*# sourceMappingURL=Layout.css.map */

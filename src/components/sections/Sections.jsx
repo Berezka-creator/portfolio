@@ -7,6 +7,7 @@ import ProjectsPage from '../portfolio/projectsPage/ProjectsPage'
 
 
 export default function Section() {
+    
     return (
         <div className="sections">
                 <Intro/>

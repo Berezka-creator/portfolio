@@ -1,6 +1,8 @@
-import React from 'react'
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Route, Switch, Router, Redirect } from 'react-router-dom'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
 import Intro from '../intro/Intro'
 import Portfolio from '../portfolio/Portfolio'
 import Contact from '../contact/Contact'
@@ -11,12 +13,29 @@ import Resume from '../resume/Resume'
 import PdfResume from '../resume/pdf/pdf'
 import ProjectsPage from '../portfolio/projectsPage/ProjectsPage'
 import "./Layout.css"
+import { Check } from "@material-ui/icons";
 
 
 export default function Layout() {
+  
 
-    const [menuOpen, setMenuOpen] = useState(false)
-   
+    const [scrollEvent, setScrollEvent] = useState(false);
+
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const listenScrollEvent = () => {
+      
+        console.log("scroll");
+        window.scrollY > 100
+        ? setScrollEvent(true)
+        : setScrollEvent(false)
+
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', listenScrollEvent);
+    });
+
     return (
         <div className="layout">
             <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
@@ -30,6 +49,10 @@ export default function Layout() {
                     <Redirect to ="/" />
                 </Switch> 
             </div>
+            <a href="#intro" className={"top-link " + (scrollEvent && " show-link")}>
+                    <FontAwesomeIcon icon={faArrowUp} />
+               </a>
+          
         </div>
     )
-}
+};

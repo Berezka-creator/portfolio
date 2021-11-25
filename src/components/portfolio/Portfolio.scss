@@ -1,23 +1,18 @@
 @import '../../global.scss';
 
 .portfolio {
-  
-
     min-height: calc(100vh - 70px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 0 3rem 0;
     
 
     h1 {
         font-size: 3rem;
-
     }
-    h3{
-
-    }
-
+  
     .container {
         width: 90%;
         display: flex;

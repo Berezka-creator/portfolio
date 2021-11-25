@@ -19,6 +19,12 @@
 .contact .left {
   flex: 1;
   overflow: hidden;
+  display: none;
+}
+@media (min-width: 40rem) {
+  .contact .left {
+    display: block;
+  }
 }
 .contact .left img {
   height: 100%;
@@ -52,6 +58,7 @@
 }
 .contact .right form label {
   width: 100%;
+  padding: 0.3rem 0;
 }
 .contact .right form input {
   width: 100%;
