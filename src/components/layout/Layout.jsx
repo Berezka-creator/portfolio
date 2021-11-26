@@ -11,7 +11,7 @@ import Menu from '../menu/Menu'
 import Sections from '../sections/Sections'
 import Resume from '../resume/Resume'
 import PdfResume from '../resume/pdf/pdf'
-import ProjectsPage from '../portfolio/projectsPage/ProjectsPage'
+import ProjectsOverview from '../projectsOverview/ProjectsOverview'
 import "./Layout.css"
 import { Check } from "@material-ui/icons";
 
@@ -44,7 +44,7 @@ export default function Layout() {
                 <Switch>
                     <Route path="/resume" exact component ={Resume} />
                     <Route path="/pdfresume" component = {PdfResume} />
-                    <Route path="/projectspage" component ={ProjectsPage} />
+                    <Route path="/projectsoverview" component ={ProjectsOverview} />
                     <Route  path="/" component ={Sections} />
                     <Redirect to ="/" />
                 </Switch> 

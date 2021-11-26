@@ -1,0 +1,27 @@
+.projectsOverview {
+  width: 100%;
+}
+.projectsOverview .container {
+  width: 90%;
+  margin: auto;
+}
+@media (min-width: 40rem) {
+  .projectsOverview .container {
+    width: 80%;
+    max-width: 1200px;
+  }
+}
+.projectsOverview .container .item {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projectsOverview .container .item .border {
+  margin-bottom: 1rem;
+  width: 70%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+/*# sourceMappingURL=ProjectsOverview.css.map */

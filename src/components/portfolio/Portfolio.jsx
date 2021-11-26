@@ -26,50 +26,47 @@ export default function Portfolio() {
 
             <div className="container">
 
-                <Link to='/projectspage#burger'>
+                <Link to='/projectsoverview#burger'>
                 <div className="item">
                     <img src={burgerApp} alt="Burger Builder Web Application" />
                     <h3>React Burger Builder</h3>
                 </div>
             </Link>
 
-            <Link to='#'>
+            <Link to='projectsoverview#'>
                 <div className="item">
                     <img src={foodApp} alt="Restarant Web Application" />
                     <h3>React Restaurant App <br/><span>(description is in a process)</span></h3>
                 </div>
             </Link>
 
-                <Link to='/projectspage#host'>      
+                <Link to='/projectsoverview#host'>      
                 <div className="item">
                     <img src={hostApp} alt="Hosting Website" />
                     <h3>HTML/CSS Hosting Website</h3>
                 </div>
             </Link>
 
-                <Link to='/projectspage#youtube'>       
+                <Link to='/projectsoverview#youtube'>       
                 <div className="item">
                     <img src={youtubeQuiz} alt="Youtube API Application" />
                     <h3>Youtube API Application with Quiz</h3>
                 </div>
             </Link>
 
-                <Link to='/projectspage#sf'>       
+                <Link to='/projectsoverview#sf'>       
                 <div className="item">
                     <img src={sfLiving} alt="Film Festival" />
                     <h3>WordPress Film Festival</h3>
                 </div>   
             </Link>
 
-            <Link to='/projectspage#samara'>       
+            <Link to='/projectsoverview#samara'>       
                 <div className="item">
                     <img src={samara} alt="Samara" />
                     <h3>WordPress Samara Group</h3>
                 </div>   
             </Link>
-
-
-
             </div>
         </div>
     );
