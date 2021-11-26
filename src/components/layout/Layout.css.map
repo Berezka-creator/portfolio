@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["Layout.scss","../../global.scss"],"names":[],"mappings":"AAEA;EACI;;AAEA;EACI;;AAIR;EACI;EACA;EACA;EACA;EACA,YCfQ;EDgBR;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EAEA;EACA;;AAEA;EACE;;AAIJ;EACE;EACA","file":"Layout.css"}
+{"version":3,"sourceRoot":"","sources":["Layout.scss"],"names":[],"mappings":"AAEA;EACI;;AAEA;EACI","file":"Layout.css"}
