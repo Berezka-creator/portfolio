@@ -5,11 +5,12 @@ import burgerApp from '../../images/burger-app.png'
 import hostApp from '../../images/host-app.png'
 import sfLiving from '../../images/sfliving.png'
 import youtubeQuiz from '../../images/youtubeQuiz.png'
+import { PeopleSharp } from '@material-ui/icons'
 
 
 export default function ProjectDesc(props) {
     return (
-        <div className="project" style={props.style}>
+        <div className="project" style={props.style} key={props.key}>
             <div className="project-container"  id={props.id}>
                 <div className="project-title" >{props.title}</div>
                 <div className="project-overview">

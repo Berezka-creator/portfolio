@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './Slider.css'
 import ProjectDesc from '../projectDesc/ProjectDesc'
 import arrow from "../../images/arrow.png"
-import burgerApp from '.../../images/burger-app.png'
+import burgerApp from '../../images/burger-app.png'
 import hostApp from '../../images/host-app.png'
 import sfLiving from '../../images/sfliving.png'
 import youtubeQuiz from '../../images/youtubeQuiz.png'
@@ -72,7 +72,7 @@ export default function ProjectsPage() {
     const [currentSlide, setCurrentSlide] = useState(0);
     
     const handleClick = (way) => {
-        way === "left" ? setCurrentSlide(currentSlide > 0 ? currentSlide -1 : 2)
+        way === "left" ? setCurrentSlide(currentSlide > 0 ? currentSlide -1 : data.length - 1)
         : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0)
     }
 
@@ -83,6 +83,7 @@ export default function ProjectsPage() {
                     <div className="container" id={d.idcontainer}>
                         <div className="item">
                             <ProjectDesc
+                                key={d.idcontainer+d.id}
                                 title={d.title}
                                 img={d.img}
                                 gitHubLink={d.github}
