@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c563f5f-414f-40fc-a525-1a75be030e26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/Julia_Berezina_Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/Julia_Berezina_Resume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/projectsPage/ProjectsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/projectsPage/ProjectsPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/resume/Resume.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resume/Resume.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/resume/pdf/Julia_Berezina_resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/resume/pdf/pdf.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resume/pdf/pdf.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/resume/pdf/resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/topbar/Topbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topbar/Topbar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,5 +42,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

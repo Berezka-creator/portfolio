@@ -4,6 +4,7 @@ import ProjectDesc from '../projectDesc/ProjectDesc'
 import arrow from "../../images/arrow.png"
 import burgerApp from '../../images/burger-app.png'
 import hostApp from '../../images/host-app.png'
+import foodApp from '../../images/food-app.png'
 import sfLiving from '../../images/sfliving.png'
 import youtubeQuiz from '../../images/youtubeQuiz.png'
 import samara from '../../images/samara.png'
@@ -47,6 +48,17 @@ export default function ProjectsPage() {
         },
         {
             id: "4",
+            idcontainer: "food",
+            title: "Restaurant App",
+            img: foodApp,
+            github: "https://github.com/Berezka-creator/restaurant_app/",
+            liveview: "https://berezka-creator.github.io/restaurant_app/",
+            tools: [ "HTML", "SASS", "React"],
+            desc: "The application is for a restaurant that describes its services,  and it can also filter menu items by ingredients  for ordering",
+            chell: "It was very difficult but fun"
+        },
+        {
+            id: "5",
             idcontainer: "sf",
             title: "Film Festival",
             img: sfLiving,
@@ -57,7 +69,7 @@ export default function ProjectsPage() {
             chell: "It was very difficultbu fun"
         },
         {
-            id: "5",
+            id: "6",
             idcontainer: "samara",
             title: "WordPress Samara Group",
             img: samara,
@@ -83,7 +95,7 @@ export default function ProjectsPage() {
                     <div className="container" id={d.idcontainer}>
                         <div className="item">
                             <ProjectDesc
-                                key={d.idcontainer+d.id}
+                                key={d.id}
                                 title={d.title}
                                 img={d.img}
                                 gitHubLink={d.github}

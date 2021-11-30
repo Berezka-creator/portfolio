@@ -9,9 +9,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <div className="wrapper">
                 <div className="left">
 
-                    <Link to= {{
-                        pathname: '/portfolio'
-                    }}>
+                    <Link to="/portfolio#intro">
                         <div className="logo">b.</div>
                     </Link>
 
