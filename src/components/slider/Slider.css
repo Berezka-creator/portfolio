@@ -1,39 +1,39 @@
-.works {
+.slider-container {
   width: 100%;
   background-color: #c0b5d4;
   position: relative;
 }
 @media (min-width: 40rem) {
-  .works {
+  .slider-container {
     height: calc(100vh - 70px);
     display: flex;
     align-items: center;
     justify-content: center;
   }
 }
-.works .arrow {
+.slider-container .arrow {
   display: none;
 }
 @media (min-width: 40rem) {
-  .works .arrow {
+  .slider-container .arrow {
     display: block;
     height: 50px;
     position: absolute;
     cursor: pointer;
   }
 }
-.works .arrow.left {
+.slider-container .arrow.left {
   left: 30px;
   transform: rotateY(180deg);
 }
-.works .arrow.right {
+.slider-container .arrow.right {
   right: 30px;
 }
-.works .slider {
+.slider-container .slider {
   position: relative;
 }
 @media (min-width: 40rem) {
-  .works .slider {
+  .slider-container .slider {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,29 +43,29 @@
     transition: all 1s ease-out;
   }
 }
-.works .slider .container {
+.slider-container .slider .container {
   width: 90%;
   margin: 20px auto;
   padding: 10px;
 }
 @media (min-width: 40rem) {
-  .works .slider .container {
+  .slider-container .slider .container {
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 }
-.works .slider .container .item {
+.slider-container .slider .container .item {
   background-color: white;
   border-radius: 10px;
   padding: 10px;
 }
 @media (min-width: 40rem) {
-  .works .slider .container .item {
+  .slider-container .slider .container .item {
     width: 700px;
     max-width: 80%;
   }
 }
 
-/*# sourceMappingURL=ProjectsPage.css.map */
+/*# sourceMappingURL=Slider.css.map */

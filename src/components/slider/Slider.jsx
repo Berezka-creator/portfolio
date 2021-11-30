@@ -10,7 +10,7 @@ import youtubeQuiz from '../../images/youtubeQuiz.png'
 import samara from '../../images/samara.png'
 
 
-export default function ProjectsPage() {
+export default function Slider() {
 
     const data = [
         {
@@ -89,10 +89,10 @@ export default function ProjectsPage() {
     }
 
     return (
-        <div className="works">
+        <div className="slider-container">
             <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
                 {data.map((d) => (
-                    <div className="container" id={d.idcontainer}>
+                    <div className="container" id={d.idcontainer}  key={d.id}>
                         <div className="item">
                             <ProjectDesc
                                 key={d.id}
@@ -103,13 +103,15 @@ export default function ProjectsPage() {
                                 tools={d.tools}
                                 desc={d.desc}>
                             </ProjectDesc>
+                            
                         </div>
                        
                     </div>
                 ))}
             </div>
+
             <img src={arrow} className="arrow left" alt="" onClick ={() => handleClick("left")}/>
-                        <img src={arrow} className="arrow right" alt="" onClick ={() => handleClick("rigth")}/>
+            <img src={arrow} className="arrow right" alt="" onClick ={() => handleClick("rigth")}/>
 
          
            

@@ -1,13 +1,6 @@
 import "./Portfolio.css"
 import { useEffect, useState } from 'react'
-import  {
-    featuredPortfolio,
-    webPortfolio,
-    mobilePortfolio,
-    designPortfolio
-} from "../../data";
 import { HashLink as Link } from 'react-router-hash-link'
-
 import burgerApp from '../../images/burger-app.png'
 import hostApp from '../../images/host-app.png'
 import sfLiving from '../../images/sfliving.png'
@@ -29,9 +22,17 @@ export default function Portfolio() {
         },
         {
             id: "2",
-            title:"REact Burger Builder",
-            img: burgerApp,
-            img_alt: "Burger Builder Web Application"
+            title:"HTML/CSS Hosting Website",
+            link: '/portfolio#host',
+            img: hostApp,
+            img_alt: "Hosting Website"
+        },
+        {
+            id: "3",
+            title:"Youtube API Application with Quiz",
+            link: '/portfolio#youtube',
+            img: youtubeQuiz,
+            img_alt: "Youtube API Application"   
         }
 
     ]
@@ -49,8 +50,6 @@ export default function Portfolio() {
                     <h3>React Burger Builder</h3>
                 </div>
             </Link>
-
-         
 
                 <Link to='/portfolio#host' >      
                 <div className="item"  key ="2">
