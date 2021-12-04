@@ -15,7 +15,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
 
                     <div className="itemContainer">
                         <Person className="icon"/>
-                        <span><a href="callto:+14156320302">+1 415 632 0302</a></span>
+                        <span><a href="callto:+14158153134">+1 (415) 815-3134</a></span>
                     </div>
                     <div className="itemContainer">
                         <Mail className="icon"/>

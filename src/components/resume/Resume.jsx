@@ -31,7 +31,7 @@ export default function Resume() {
                 <div className="resume-contact contact-container">
                 <div className="contact-item">
                     <FontAwesomeIcon icon={faMobile} className="i" />
-                    <p><a href="callto:+14156320302">+1 (415)632-0302</a></p>
+                    <p><a href="callto:+14158153134">+1 (415) 815-3134</a></p>
 
                 </div>
                 <div className="contact-item">
@@ -84,33 +84,37 @@ export default function Resume() {
                 icon={faFileCode} 
                 title="Web Application Development Experience">
                 <div className="experience">
+
                     <div className="experience__item">
-                    <h3>WordPress Developer </h3>
+                        <h3>Front End Developer</h3>
+                        <h4>Code for SF | San-Francisco, Ca</h4>
+                        <h5>May 2020 - Present</h5>
+                        <ul>
+                            <li>Contributed to the SF Bay Area Relief web application using React. It provided a database for non-profits to search for grants and loans relevant to their organization.
+                            <li><a href="https://github.com/sfbrigade/datasci-bay-area-relief-frontend" target="_blank">https://github.com/sfbrigade/datasci-bay-area-relief-frontend</a></li></li>
+                            <li>Worked collaboratively with other development teams.</li>
+                            <li>Researched relevant designs that fit the website and presented it to the team with recommendations.</li>
+                            <li>Built the test code for the React App using JEST framework.</li>
+                        </ul>
+
+                    </div>
+
+                    <div className="separator"></div>
+
+                    <div className="experience__item">
+                        <h3>WordPress Developer </h3>
                         <h4>SF Living Wage Coalition | San-Francisco, Ca</h4>
-                        <h5>Sep 2020 - Dec 2020</h5>
+                        <h5>July 2020 - Jan 2021</h5>
                         <ul>
                             <li>Developed a new website from scratch for the Film Festival using WordPress.
                             <li><a href="https://www.csej.org/" target="_blank">https://www.csej.org/</a></li></li>
                             <li>Collaborated with team members to ensure a positive user experience.</li>
                                 <li>Researched relevant designs that fit the website and presented it to the team with recommendations.</li>
                             <li>Maintained Sf Living Wage’s home website; fixed the auction module and other bugs as needed.
-                                 Front End</li> 
+                                 Front End</li>
                         </ul>
-                    </div> 
-                    <div className="separator"></div>
-                    <div className="experience__item">
-                        <h3>Front End Developer</h3>
-                        <h4>Code for SF | San-Francisco, Ca</h4>
-                        <h5>June 2020 - August 2020</h5>
-                        <ul>
-                            <li>Contributed to the SF Bay Area Relief web application using React. It provided a database for non-profits to search for grants and loans relevant to their organization.
-                            <li><a href="https://github.com/sfbrigade/datasci-bay-area-relief-frontend" target="_blank">https://github.com/sfbrigade/datasci-bay-area-relief-frontend</a></li></li>
-                            <li>Worked collaboratively with other development teams.</li>
-                            <li>Researched relevant designs that fit the website and presented it to the team with recommendations.</li>
-                            <li>Built the test code for each React component.</li>
-                        </ul>
-
                     </div>
+
                 </div>
             </ResumeSection>
 
