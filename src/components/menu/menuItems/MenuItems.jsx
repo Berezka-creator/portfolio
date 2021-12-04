@@ -7,7 +7,7 @@ export default function menuItems(props) {
             <ul className="menuItems">
                 <MenuItem link="/#intro">Intro</MenuItem>
                 <MenuItem link="/#portfolio">Portfolio</MenuItem>
-                <MenuItem link="/#slider">Slider</MenuItem>
+
                 <MenuItem link="/#contact">Contact</MenuItem>
             </ul>
      
