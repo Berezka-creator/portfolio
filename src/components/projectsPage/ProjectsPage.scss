@@ -1,0 +1,18 @@
+@import  '../../global.scss';
+
+.projectsPage{
+    padding-top: 0;
+    width: 100%;  
+       
+   .projects_container {
+  
+       .container {
+           width: 90%;
+           margin: auto;
+
+           .item {
+               padding-top: 80px;
+           }
+       }
+    }
+}

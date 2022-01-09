@@ -1,0 +1,13 @@
+.projectsPage {
+  padding-top: 0;
+  width: 100%;
+}
+.projectsPage .projects_container .container {
+  width: 90%;
+  margin: auto;
+}
+.projectsPage .projects_container .container .item {
+  padding-top: 80px;
+}
+
+/*# sourceMappingURL=ProjectsPage.css.map */
